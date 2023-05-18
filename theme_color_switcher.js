@@ -12,5 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
   if (savedTheme) {
       document.body.classList.remove('theme-default', 'theme-dark', 'theme-light'); // Remove the existing theme class
       document.body.classList.add(savedTheme); // Add the saved theme class
+      themeSelector.value = savedTheme; // Set the dropdown menu's value to the saved theme
   }
 });
