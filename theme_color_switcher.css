@@ -1,0 +1,24 @@
+body {
+    transition: all 0.3s ease;
+}
+
+.theme-default {
+    background-color: #fff;
+    color: #000;
+}
+
+.theme-dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.theme-light {
+    background-color: #eee;
+    color: #222;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
